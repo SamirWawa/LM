@@ -1,0 +1,74 @@
+body
+{
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Fragment Mono', monospace;
+}
+header
+{
+    max-width: 100vw;
+    min-height: 15vh;
+    border: 3px solid red;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+}
+li
+{
+    flex-grow: 2;
+}
+
+main 
+{
+    max-width: 100vw;
+    min-height: 70vh;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid orange;
+    box-shadow: 0px 3px rgb(199, 198, 198);
+}
+footer
+{
+    max-width: 100vw;
+    min-height: 15vh;
+    display: flex;
+    justify-content:  end;
+    background-image: linear-gradient(to bottom, white, yellow);
+}
+.boton
+{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border-radius: 5px;
+}
+article
+{
+    display: flex;
+}
+p
+{
+    flex-grow: 2;
+}
+div
+{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+.boton:hover + .ToolTip
+{
+    visibility: visible;
+}
+.ToolTip
+{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    background-image: linear-gradient(#090979);
+}
