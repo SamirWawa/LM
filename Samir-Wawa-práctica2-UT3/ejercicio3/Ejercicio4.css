@@ -1,0 +1,174 @@
+body 
+{
+    margin: 0;
+}
+
+header 
+{
+    height: 20vh;
+    background-color: #9408B0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+    font-weight: bold;
+}
+
+.elementosHeader 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+li 
+{
+    font-weight: bold;
+    color: white;
+}
+
+ul 
+{
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none; 
+}
+
+nav 
+{
+    height: 15px;
+    background-color: purple;
+    height: 5vh;
+}
+
+main 
+{
+    background-color: #9408B0;
+    height: auto;
+}
+
+section 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner 
+{
+    width: 100%;
+    height: max-content;
+}
+
+footer 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-weight: bold;
+    background-color: #4600A4;
+    height: auto;
+    color: white;
+}
+
+.producto 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.precio 
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.botonVender 
+{
+    font-weight: bolder;
+    background-color: #E6D016;
+    padding: 10px 15px;
+    border: hidden;
+}
+
+h1 
+{
+    color: white;
+}
+
+small 
+{
+    font-weight: bolder;
+    color: white;
+}
+
+.nombreEmpresa 
+{
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 2px;
+}
+
+.titulo 
+{
+    font-weight: bold;
+    color: wheat;
+    text-decoration:underline;
+}
+
+.justificarContenido 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.justificarContenido > p:last-child 
+{
+    margin-bottom: 25px;
+}
+
+.botonFooter 
+{
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.polaroid 
+{
+    background-color:white;
+    padding:10px 10px 40px 10px;
+    border:1px solid #BFBFBF;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+img.polaroid:hover 
+{
+    transform: scale(1.2);
+    transform: rotate(75deg);
+}
+
+.foco:focus
+{
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+@keyframe animation
+{
+    0%
+    {
+        transform: scale(1);
+    }
+    100%
+    {
+        transform:scale(2);
+    }
+}
