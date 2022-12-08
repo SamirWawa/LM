@@ -173,6 +173,18 @@ img.polaroid:hover
     }
 }
 
+@keyframe parpadear
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity:1
+    }
+}
+
 .estrella
 {
     position: absolute;
@@ -181,5 +193,13 @@ img.polaroid:hover
 
 .oferta
 {
+    font-weight: bolder;
+    color: red
+}
 
+.parpadeo
+{
+    animation-name: parpadear;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
