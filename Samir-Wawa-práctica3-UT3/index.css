@@ -1,0 +1,22 @@
+h1
+{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.row{
+    margin: 20px;
+}
+main{
+    background-color: wheat;
+}
+header{
+    background-color: whitesmoke;
+}
+.img{
+    background-color: white;
+}
+.btn-info{
+    background-color: yellow;
+    border-radius: 30px;
+    color: green;
+}
