@@ -30,7 +30,7 @@ footer
     max-width: 100vw;
     min-height: 15vh;
     display: flex;
-    justify-content:  end;
+    justify-content:  end; /*flex-end*/
     background-image: linear-gradient(to bottom, white, yellow);
 }
 .boton
