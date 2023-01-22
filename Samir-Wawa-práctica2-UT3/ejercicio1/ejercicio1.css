@@ -19,6 +19,7 @@ ul
 li
 {
     flex-grow: 2;
+    /*Aquí estaría bien añadir list-style-type: none, que quita el puntito*/
 }
 
 main 
@@ -60,7 +61,7 @@ p
 .tooltip
 {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
-    background-image: linear-gradient(#090979);
+    background-image: linear-gradient(#090979); /*Aquí faltan valores*/
     visibility: hidden;
     position: relative;
     display: inline-block;
