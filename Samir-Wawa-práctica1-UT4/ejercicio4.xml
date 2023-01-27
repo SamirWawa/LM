@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio4.css"?>
+<img alt="Pezón" src="bigFish.png">
+<pagina>
+<cabecera>
+<texto>Ewan MCGREGOR</texto>
+<texto>Albert FINNEY</texto>
+<texto>Billy CRUDUP</texto>
+<texto>Jessica LANGE</texto>
+</cabecera>
+<texto>Una película de TIM BURTON</texto>
+<pie>UNA AVENTURA TAN GRANDE COMO LA VIDA MISMA</pie>
+</pagina>

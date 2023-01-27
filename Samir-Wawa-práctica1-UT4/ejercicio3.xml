@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio3.css"?>
+<pagina>
+<encabezado>
+<img ruta="">img</img>
+<separador>
+<linea><tiempo>ARTISTA:</tiempo><naranja>ABC(2)</naranja></linea>
+<linea><tiempo>TÍTULO:</tiempo><texto>The Collection</texto></linea>
+<linea><tiempo>SELLO:</tiempo><numero>KARRUSSELL INTERNACIONAL</numero></linea>
+<linea><tiempo>REFERENCIA:</tiempo><texto>551 831-2</texto></linea>
+<linea><tiempo>AÑO:</tiempo><texto>1996</texto></linea>
+<linea><tiempo>PAIS:</tiempo><texto>Germany</texto></linea>
+<linea><tiempo>FORMATO:</tiempo><texto>CD - Compilation</texto></linea>
+<linea><tiempo>GENERO:</tiempo><texto>Funk / Soul, Electronic</texto></linea>
+<linea><tiempo>ESTILO:</tiempo><texto>Funk Disco, Synth Pop</texto></linea>
+<linea><tiempo>OBSERVACIONES:</tiempo><texto>Licensced from Mercury Records Lid (London)</texto></linea>
+</separador>
+</encabezado>
+<CD>
+<linea>CD1</linea>
+<linea><numero>01</numero><texto>Poison Arrow - </texto><tiempo>[03:23]</tiempo></linea>
+<linea><numero>02</numero><texto>The Look Of Love (Part One) - </texto><tiempo>[03:29]</tiempo></linea>
+<linea><numero>03</numero><texto>The Night You Murdered Love - </texto><tiempo>[04:53]</tiempo></linea>
+<linea><numero>04</numero><texto>Tears Are Not Enough - </texto><tiempo>[03:29]</tiempo></linea>
+<linea><numero>05</numero><texto>Culpa de Enzo Y de Gonlo</texto><tiempo>[33:33]</tiempo></linea>
+<linea><numero>06</numero><texto>I'm In Love With You - </texto><tiempo>[04:35]</tiempo></linea>
+<linea><numero>07</numero><texto>The Real Thing - </texto><tiempo>[04:54]</tiempo></linea>
+<linea><numero>08</numero><texto>Love's A Dangerous Language - </texto><tiempo>[03:40]</tiempo></linea>
+<linea><numero>09</numero><texto>The Greatest Love Of All - </texto><tiempo>[05:34]</tiempo></linea>
+<linea><numero>10</numero><texto>When Smokey Sings - </texto><tiempo>[04:18]</tiempo></linea>
+<linea><numero>11</numero><texto>One Better World - </texto><tiempo>[05:38]</tiempo></linea>
+<linea><numero>12</numero><texto>Vanity Kills - </texto><tiempo>[03:29]</tiempo></linea>
+<linea><numero>13</numero><texto>Bite The Hand - </texto><tiempo>[03:07]</tiempo></linea>
+<linea><numero>14</numero><texto>Chicago(Abriged) - </texto><tiempo>[03:40]</tiempo></linea>
+<linea><numero>15</numero><texto>Minneapolis - </texto><tiempo>[02:57]</tiempo></linea>
+<linea><numero>16</numero><texto>Think Again - </texto><tiempo>[03:59]</tiempo></linea>
+<linea><numero>17</numero><texto>Never More Than Now - </texto><tiempo>[06:03]</tiempo></linea>
+<linea><numero>18</numero><texto>All Of My Heart - </texto><tiempo>[04:49]</tiempo></linea>
+</CD>
+</pagina>
