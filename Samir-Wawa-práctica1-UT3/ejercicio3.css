@@ -60,7 +60,7 @@ p
 div
 {
     visibility: hidden;
-    opacity: 0;
+    opacity: 0; /*Escoge una propiedad para oculatrlo, no las tres*/
     display: none;
 }
 .boton:hover + .ToolTip
