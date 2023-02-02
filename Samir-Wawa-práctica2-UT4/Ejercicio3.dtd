@@ -1,0 +1,11 @@
+<!ELEMENT rss (channel?)>
+<!ELEMENT channel (tittle*, link*, description*, item+, image*,heith*,with*,link*,url*)>
+<!ELEMENT tittle (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT heith (#PCDATA)>
+<!ELEMENT with (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT url (#PCDATA)>

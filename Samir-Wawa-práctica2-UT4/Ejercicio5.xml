@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Band>
+<NameBand></NameBand>
+<Member BDate="" Plays="">
+<NameMember></NameMember>
+<Role></Role>
+<Joined YEAR=""></Joined>
+</Member>
+</Band>
+<Band>
+<NameBand></NameBand>
+<History></History>
+<Member Plays="">
+<NameMember></NameMember>
+<Role></Role>
+<Joined YEAR=""></Joined>
+</Member>
+<Member Plays="">
+<NameMember></NameMember>
+<Role></Role>
+<Joined YEAR=""></Joined>
+</Member>
+<Instrument InstrumentId=""></Instrument>
+</Band>
+<Band>
+<NameBand></NameBand>
+<Awards></Awards>
+<Member Plays="">
+<NameMember></NameMember>
+<Role></Role>
+<Joined YEAR=""></Joined>
+</Member>
+<Member Plays="">
+<NameMember></NameMember>
+<Role></Role>
+<Joined YEAR=""></Joined>
+</Member>
+<Member Plays="">
+<NameMember></NameMember>
+<Role></Role>
+<Joined YEAR=""></Joined>
+</Member>
+<Instrument InstrumentId=""></Instrument>
+<Instrument InstrumentId=""></Instrument>
+</Band>

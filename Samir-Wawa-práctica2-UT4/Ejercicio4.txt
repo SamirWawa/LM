@@ -1,0 +1,2 @@
+En el último partido falta un visitante
+En la linea 8 debe ser ATTLIST en lugar de ELEMENT
