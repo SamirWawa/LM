@@ -1,17 +1,10 @@
 'use strict'
-function verAsignaturas(b){
-    let cadena = (b[0]+"-"+b[1]+"-asignaturas: ")
-    b.shift()
-    b.shift()
-    b.forEach(function(i){
-        cadena+=i
-        cadena+="/"
-    })
-    console.log(cadena)
-}
-function Ejercicio2(a){
+function Ejercicio2(...a){
     a.forEach(function(i){
-        verAsignaturas(i)
+        let cadena = i[0]+"-"+i[1]+"-asignaturas:"
+        i.shift()
+        i.shift()
+        console.log(cadena+i.join("/"))
     });
 }
 Ejercicio2(["Sara", "DAMA", "Programación", "ED"],["Martín", "DAMB", "Programación", "LM", "ED", "BBDD", "FOL", "SI"],["Emma", "ASIR","ISO","BBDD","LM"])

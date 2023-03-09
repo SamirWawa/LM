@@ -6,6 +6,5 @@ let alumnos = [
     { nombre: 'Pedro', edad: 40}
   ]
 
-  alumnos.forEach(function(i){
-    console.log(i.toString())
-  })
+  console.log(alumnos.map(cad=>+", curso: '1DAMA'"))
+  console.log(alumnos)
