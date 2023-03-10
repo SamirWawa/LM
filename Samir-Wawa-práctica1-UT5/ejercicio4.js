@@ -5,6 +5,6 @@ let alumnos = [
     { nombre: 'Ana', edad: 30},
     { nombre: 'Pedro', edad: 40}
   ]
-
-  console.log(alumnos.map(cad=>+", curso: '1DAMA'"))
-  console.log(alumnos)
+  let a = []
+  a = alumnos.map(({nombre, edad, curso})=>({nombre: nombre, edad: edad, curso: '1DAMA'}))
+  console.log(a)
