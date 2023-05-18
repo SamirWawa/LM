@@ -33,7 +33,12 @@ article{
     font-size: 50px;
     font-weight: bold;
 }
-#imagen{
+.imagen{
     width: 200px;
     height: 200px;
+}
+#stats{
+    display: flex;
+    background-color: gray;
+    border-radius: 5px;
 }
