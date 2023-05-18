@@ -39,6 +39,14 @@ article{
 }
 #stats{
     display: flex;
+    flex-direction: column;
     background-color: gray;
     border-radius: 5px;
+    padding: 5px;
+}
+#datos{
+    background-color:dodgerblue;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
 }
