@@ -1,13 +1,23 @@
 'use strict';
-let contador = 1
+
+let contador = generarNumeroAleatorio(1,1001)
 let enlace = API_URL + contador;
-document.querySelector("#post").addEventListener("click", contador++)
 
-/*function generarNumeroAleatorio(primero, ultimo) {
+generarPokemon()
+document.querySelector("#prev").addEventListener('click', function(){
+    contador--
+    enlace = API_URL + contador;
+    location.reload()
+    console.log(contador)
+    generarPokemon()
+})
+function generarNumeroAleatorio(primero, ultimo) {
     return Math.floor(Math.random() * (ultimo - primero)) + primero;
-}*/
+}
 
+function generarPokemon(){
 HTTP.ajax('GET', enlace).then((datosPokemon) => {
+
     let p = document.createElement("p");
     p.appendChild(document.createTextNode(datosPokemon.name));
     p.className="nombre"
@@ -59,10 +69,8 @@ HTTP.ajax('GET', enlace).then((datosPokemon) => {
         movimiento.appendChild(document.createTextNode(element.move.name))
         document.querySelector("#moves").appendChild(movimiento)
     })
+
+    
 }).catch((error) => {
     console.log(error)
-});
-
-function generarPokemon() {
-
-}
+});}
