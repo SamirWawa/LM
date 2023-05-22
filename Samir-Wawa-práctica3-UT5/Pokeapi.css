@@ -7,13 +7,6 @@ body{
     display: flex;
     justify-content: center;
 }
-header{
-    max-width: 60vw;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 #centro{
     min-height: 100vh;
     width: 60vw;
