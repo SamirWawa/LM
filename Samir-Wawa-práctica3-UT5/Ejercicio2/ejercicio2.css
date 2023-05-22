@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100vw;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+}
+.container-fluid{
+    width: 100vw;
+    height: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
+.form-control{
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: black 2px 2px;
+}
