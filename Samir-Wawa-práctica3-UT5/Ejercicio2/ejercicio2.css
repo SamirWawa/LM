@@ -6,10 +6,24 @@ body{
 }
 header{
     width: 100vw;
-    min-height: 10vh;
+    height: 10vh;
     display: flex;
+    background-color: rgb(255, 136, 0);
+}
+main{
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: orange;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-azul-blanco-fondo-blanco-circulo-azul_564420-2931.jpg?w=2000");
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 255, 0);
+    height: 10vh;
 }
 .container-fluid{
     width: 100vw;
@@ -24,4 +38,27 @@ header{
     border-radius: 5px;
     background-color: red;
     box-shadow: black 2px 2px;
+}
+.imagen{
+    width: 6vw;
+    height: 8vh;
+}
+.nav-link{
+    align-self: center;
+}
+.maineo{
+    width: 10px;
+    height: 10px;
+}
+.Comida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 3px;
+}
+.imagenComida{
+    height: 30vh;
+    width: 20vw;
 }
